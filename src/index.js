@@ -1,8 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+// import App from './examples/1-PropsOnly';
+// import App from './examples/2-BasicContext';
+// import App from './examples/3-BasicContext-Memo';
+// import App from './examples/4-CountProvider';
+// import App from './examples/5-OptimizedProvider';
+// import App from './examples/6-Alternative';
+import App from "./examples/sandbox";
 
 ReactDOM.render(
   <React.StrictMode>

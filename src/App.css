@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.layout {
+  display: flex;
+}
+
+.component {
+  padding: 50px;
+  border: 1px solid white;
+  position: relative;
+}
+
+.render-count {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+}
+
+.render-count:hover {
+  cursor: pointer;
+}
